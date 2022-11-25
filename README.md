@@ -28,6 +28,11 @@ You are expected to have a basic understanding of React and JavaScript. You shou
 - [Exercise 2: `useInterval`](./src/exercises/02-use-interval/README.md)
 - [Exercise 3: `useKey`](./src/exercises/03-use-key/README.md)
 - [Exercise 4: `useFetch`](./src/exercises/04-use-fetch/README.md)
+- Exercise 5: `useDebounce`
+- Exercise 6: `useEventListener`
+- Exercise 7: `usePrevious`
+- Exercise 8: `useAsync`
+- Exercise 9: `useOnClickOutside`
 
 ## License
 
