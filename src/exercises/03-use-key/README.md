@@ -15,9 +15,15 @@ The `useKey` hook should be able to call a callback when a specified key is pres
 
 ## 🔎 Hint
 
-- You can use the `useEffect` hook to run code when the component is mounted and when the component is updated.
-- You can use the `useRef` hook to store a value that persists between renders.
-- You can get things working without proper TypeScript types, but you should try to add them.
 - To help you to make sure your hook works as expected, you can run the tests with `yarn test 03-use-key`.
+- You can get things working without proper TypeScript types, but you should try to add them.
+- <details>
+  <summary>Hint #1</summary>
+    You can use the `useEffect` hook to run code when the component is mounted and when the component is updated and to initialize the event listener. Don't forget to clean up the event listener when the component is unmounted.
+  </details>
+- <details>
+  <summary>Hint #2</summary>
+    You can use the `useRef` hook to store a reference to the latest callback without triggering a re-render.
+  </details>
 
 (You can find the solution to this exercise in the [solution directory](./solution/hook.ts))

@@ -10,12 +10,21 @@
 
 The `usePersist` hook should be able to store and retrieve values from `localStorage`. The hook should be able to store and retrieve values of any type.
 
-## 🔎 Hint
+## 🔎 Hints
 
-- You can use `JSON.stringify` to convert a value to a string and `JSON.parse` to convert a string to a value.
-- You can use the `useEffect` hook to run code when the component is mounted and when the component is updated.
-- You can use the `useState` hook to store a value in the component's state.
-- You can get things working without proper TypeScript types, but you should try to add them.
 - To help you to make sure your hook works as expected, you can run the tests with `yarn test 01-use-persist`.
+- You can get things working without proper TypeScript types, but you should try to add them.
+- <details>
+  <summary>Hint #1</summary>
+    You can use `JSON.stringify` to convert a value to a string and `JSON.parse` to convert a string to a value.
+  </details>
+- <details>
+  <summary>Hint #2</summary>
+    You can use the `useEffect` hook to run code when the component is mounted and when the component is updated.
+  </details>
+- <details>
+  <summary>Hint #3</summary>
+    You can use the `useState` hook to store a value in the component's state.
+  </details>
 
 (You can find the solution to this exercise in the [solution directory](./solution/hook.ts))

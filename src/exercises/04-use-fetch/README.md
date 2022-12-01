@@ -20,12 +20,23 @@ The `useFetch` hook should be able to make a fetch request and return the data, 
 
 ## 🔎 Hint
 
-- Run `yarn` to install the required dependencies for this exercise.
-- You can use the `useEffect` hook to make the request when the component is mounted and whenever the URL or options change.
-- You can use the `useState` hook to store the various states of the request.
-- See how we can use the `AbortController` to cancel a request: <https://developer.mozilla.org/en-US/docs/Web/API/AbortController>
-- See how we can handle errors in a fetch request: <https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#checking_that_the_fetch_was_successful>
-- You can get things working without proper TypeScript types, but you should try to add them.
 - To help you to make sure your hook works as expected, you can run the tests with `yarn test 04-use-fetch`.
+- You can get things working without proper TypeScript types, but you should try to add them.
+- <details>
+  <summary>Hint #1</summary>
+    You can use the `useEffect` hook to run code when the component is mounted and when the component is updated.
+  </details>
+- <details>
+  <summary>Hint #2</summary>
+    You can use the `useState` hook to store the various states of the request.
+  </details>
+- <details>
+  <summary>Hint #3</summary>
+    See how we can use the `AbortController` to cancel a request: <https://developer.mozilla.org/en-US/docs/Web/API/AbortController>
+  </details>
+- <details>
+  <summary>Hint #4</summary>
+    See how we can handle errors in a fetch request: <https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#checking_that_the_fetch_was_successful>
+  </details>
 
 (You can find the solution to this exercise in the [solution directory](./solution/hook.ts))
