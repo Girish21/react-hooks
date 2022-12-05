@@ -1,12 +1,12 @@
 import * as React from 'react'
 
-export const usePersist = (
+export const usePersist = <TValue>(
   key: string,
-  value: unknown,
-): [unknown, (value: unknown) => void] => {
+  value: TValue,
+): [TValue, (value: TValue) => void] => {
   const [state, setState] = React.useState(value)
 
-  const storeValue = (value: unknown) => {
+  const storeValue = (value: TValue) => {
     setState(value)
     localStorage.setItem(key, JSON.stringify(value))
   }
