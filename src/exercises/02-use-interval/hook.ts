@@ -19,5 +19,5 @@ export const useInterval = (callback: () => void, delay: number) => {
 
   React.useEffect(() => {
     intervalRef.current = setInterval(() => callbackRef.current(), time)
-  }, [callback, time])
+  }, [time])
 }
