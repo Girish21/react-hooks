@@ -8,9 +8,9 @@ export const usePersist = <TValue>(
     try {
       const storedValue = localStorage.getItem(key)
       if (!storedValue) {
-        throw new Error()
+        return value
       }
-      return JSON.parse(storedValue)
+      return JSON.parse(storedValue) as TValue
     } catch {
       return value
     }
