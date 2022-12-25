@@ -31,7 +31,7 @@ You are expected to have a basic understanding of React and JavaScript. You shou
 - Exercise 5: `useDebounce`
 - Exercise 6: `useEventListener`
 - Exercise 7: `usePrevious`
-- Exercise 8: `useAsync`
+- [Exercise 8: `useAsync`](./src/exercises/08-use-async/README.md)
 - Exercise 9: `useOnClickOutside`
 
 ## License
