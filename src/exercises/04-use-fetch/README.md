@@ -32,11 +32,11 @@ The `useFetch` hook should be able to make a fetch request and return the data, 
   </details>
 - <details>
   <summary>Hint #3</summary>
-    See how we can use the `AbortController` to cancel a request: <https://developer.mozilla.org/en-US/docs/Web/API/AbortController>
+    See how we can use the `AbortController` to cancel a request: https://developer.mozilla.org/en-US/docs/Web/API/AbortController
   </details>
 - <details>
   <summary>Hint #4</summary>
-    See how we can handle errors in a fetch request: <https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#checking_that_the_fetch_was_successful>
+    See how we can handle errors in a fetch request: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#checking_that_the_fetch_was_successful
   </details>
 
 (You can find the solution to this exercise in the [solution directory](./solution/hook.ts))

@@ -37,5 +37,7 @@ The `useAsync` hook should be able to call a promise and return the data, state,
   </details>
 - <details>
   <summary>Hint #4</summary>
-    See how we can handle errors in a promise: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch>
+    See how we can handle errors in a promise: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch
   </details>
+
+(You can find the solution to this exercise in the [solution directory](./solution/hook.ts))
