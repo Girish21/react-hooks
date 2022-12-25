@@ -15,12 +15,13 @@ You are expected to have a basic understanding of React and JavaScript. You shou
 
 ## 📝 Instructions
 
-1. Clone this repository
-2. Run `yarn` to install the dependencies
-3. For each exercise, run `yarn test <exercise-number>` to run the tests for that exercise. For example, to run the tests for exercise 1, run `yarn test 01-use-persist`
-4. For each exercise, create a new branch to work on. For example, to work on exercise 1, create a new branch called `<name>/01-use-persist`
-5. The tests for the exercise will fail. Make the tests pass by editing the `src/exercises/<exercise-number>/hook.ts` file
-6. Submit a pull request when you are done with an exercise
+1. [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks) this repository
+1. Clone your forked repository
+1. Run `yarn` to install the dependencies
+1. For each exercise, run `yarn test <exercise-number>` to run the tests for that exercise. For example, to run the tests for exercise 1, run `yarn test 01-use-persist`
+1. For each exercise, create a new branch to work on. For example, to work on exercise 1, create a new branch called `<name>/01-use-persist`
+1. The tests for the exercise will fail. Make the tests pass by editing the `src/exercises/<exercise-number>/hook.ts` file
+1. Submit a pull request when you are done with an exercise
 
 ## 📚 Exercises
 
