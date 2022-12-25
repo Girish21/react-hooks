@@ -31,7 +31,7 @@ You are expected to have a basic understanding of React and JavaScript. You shou
 - [Exercise 4: `useFetch`](./src/exercises/04-use-fetch/README.md)
 - Exercise 5: `useDebounce`
 - Exercise 6: `useEventListener`
-- Exercise 7: `usePrevious`
+- [Exercise 7: `usePrevious`](./src/exercises/07-use-previous/README.md)
 - [Exercise 8: `useAsync`](./src/exercises/08-use-async/README.md)
 - Exercise 9: `useOnClickOutside`
 
