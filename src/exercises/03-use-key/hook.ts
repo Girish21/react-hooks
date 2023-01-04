@@ -8,10 +8,16 @@ export const useKey = (key: string, callback: () => void) => {
   }, [callback])
 
   React.useEffect(() => {
-    document.addEventListener('keydown', event => {
+    const KeyDownHandler = (event: KeyboardEvent) => {
       if (event.key === key) {
         callbackRef.current?.()
       }
-    })
+    }
+
+    document.addEventListener('keydown', KeyDownHandler)
+
+    return () => document.removeEventListener('keydown', KeyDownHandler)
   }, [key])
 }
+
+// missed removing eventlistener
