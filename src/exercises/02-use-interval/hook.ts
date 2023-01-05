@@ -8,7 +8,10 @@ export const useInterval = (callback: () => void, delay: number) => {
   }, [callback])
 
   useEffect(() => {
-    const intervalId = setInterval(savedCallback?.current, delay)
+    const wrapper = () => savedCallback?.current?.()
+    const intervalId = setInterval(wrapper, delay)
     return () => clearInterval(intervalId)
   }, [delay])
 }
+
+//missed wrapper function
